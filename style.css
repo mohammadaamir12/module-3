@@ -1,0 +1,68 @@
+/* cusatom style*/
+
+body .navbar-default{
+	background-color: #8ebf7a;
+}
+
+body .navbar-default .navbar-nav{
+	margin: 0;
+}
+
+body .navbar-default .navbar-collapse{
+	padding: 0;
+}
+
+body .navbar-default .navbar-nav li:nth-child(even){
+	background-color: #fffeee;
+}
+
+body .navbar-default .navbar-nav li:nth-child(odd){
+	background-color: #eeefff;
+}
+
+body .navbar-default .navbar-toggle, body .navbar-default .navbar-toggle:hover, body .navbar-default .navbar-toggle:focus{
+ background-color: #267506;
+}
+
+body .navbar-default .navbar-toggle.collapsed{
+ background-color: #7ccc5b;
+}
+
+.chicken-content, .beef-content, .sushi-content{
+	margin-top: 20px
+}
+
+.chicken-content .inner{
+	background-color: #bbf3f9;
+}
+
+.beef-content .inner{
+	background-color: #ffcfcf;
+}
+
+.sushi-content .inner{
+	background-color: #9de29d;
+}
+
+body h1{
+	background-color: #580000;
+    margin: 0;
+    padding: 7px;
+    font-weight: bold;
+    color: #fff;
+}
+
+body .navbar-default .navbar-brand{
+	font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+}
+
+body .nav > li{
+	text-align: center;
+	color: #000;
+}
+
+.navbar-default .navbar-nav > li > a{
+	color: #000;
+}
